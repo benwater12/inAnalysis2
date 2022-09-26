@@ -27,3 +27,11 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+### Some important notes.
+* 在 ```inAnalysis2/src/config/env.js```有幾個需要調整的參數。
+
+| 名稱 | 功能 | 效果 |
+| -------- | -------- | -------- |
+| signupTime      | 開啟註冊     | 這個打開了，主畫面才會出現註冊功能     |
+|deadline |死線|只要現在日期超過這個時間點，登入的人就無法操作inanalysis2的內容。|
